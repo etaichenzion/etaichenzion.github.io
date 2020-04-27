@@ -1,0 +1,32 @@
+/* CSS DOCUMENT */
+
+body {
+	background-color: rgb(250, 255, 255);
+}
+h1 {
+	font-family: serif;
+	color: rgb(255, 195, 139);
+	text-transform: uppercase;
+	margin-left: 2em;
+	font-size: 2.5em;
+}
+h2 {
+	font-family: sans-serif;
+	color: rgb(200, 0, 20);
+	margin-left: 1.5em;
+}
+h3 {
+	font-family: sans-serif;
+	color: rgb(180, 220, 200);
+	margin-left: 1em;
+}
+h4 {
+	font-family: sans-serif;
+	color: rgb(200, 0, 20);
+		text-transform: lowercase;
+
+}
+.price {
+	font-family: sans-serif;
+	color: rgb(255, 195, 139);
+}
