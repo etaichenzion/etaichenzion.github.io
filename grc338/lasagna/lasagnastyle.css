@@ -1,0 +1,54 @@
+/*CSS DOCUMENT*/
+
+
+div.container {
+max-width: 60em;
+margin: auto;
+background-color: rgb(254, 226, 221);
+padding-top: 2em;
+padding-left: 1em;
+padding-right: 1em;
+padding-bottom: .25em;
+}
+
+.container header {
+	color: rgb(255, 107, 79);
+	text-transform: uppercase;
+	max-width: 45em;
+	margin: auto;
+}
+h2 {
+	font-size: 1.5em;
+	margin-top: -.75em;
+	text-transform: lowercase;
+}
+
+h3 {
+	color: rgb(232, 167, 72);
+	margin-left: .5em;
+}
+
+.container img {
+	width: 75%;
+	margin-right: 7em;
+	margin-left: 7em;
+}
+
+div.ingredients {
+float: right;
+margin-left: 4em;
+margin-bottom: 1.5em;
+padding-right: 2em;
+background-color: rgb(252, 242, 214);
+}
+
+div.directions {
+	background-color: rgb(252, 242, 214);
+	padding-left: 1em;
+	padding-top: .15em;
+	padding-bottom: 1em;
+}
+
+footer {
+	color: rgb(255, 107, 79);
+}
