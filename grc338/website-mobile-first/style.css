@@ -1,0 +1,84 @@
+body {
+	background-color: rgb(229, 244, 208);
+}
+
+nav {
+	font-family: chantal, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: rgb(200, 110, 41);
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 1em;
+}
+
+nav ul {
+	font-size: 1.25em;
+	max-width: 13.5em;
+	margin: auto;
+	padding-bottom: .25em;
+}
+
+img {
+	max-width: 26em;
+	margin: auto;
+}
+
+h1 {
+	max-width: 9em;
+	margin: auto;
+}
+
+a {
+	color: rgb(200, 110, 41);
+	text-decoration: none;
+}
+
+h2 {
+	padding-left: .5em;
+	font-family: chantal, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	color: rgb(78, 139, 19);
+}
+
+h3 {
+	padding-left: .5em;
+	font-family: chantal, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: rgb(200, 110, 41);
+}
+
+h4 {
+	font-family: chantal, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: rgb(78, 139, 19);
+}
+
+p {
+	font-family: mr-eaves-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: -.75em;
+	margin-left: .5em;
+}
+
+.caption {
+	color: rgb(200, 110, 41);
+	font-family: mr-eaves-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.price {
+	font-family: mr-eaves-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left: 1.25em;
+	color: rgb(200, 110, 41);
+}
