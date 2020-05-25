@@ -2,6 +2,11 @@ body {
 	background-color: rgb(229, 244, 208);
 }
 
+h1 {
+	max-width: 9em;
+	margin: auto;
+}
+
 nav {
 	font-family: chantal, sans-serif;
 	font-weight: 300;
@@ -22,19 +27,14 @@ nav ul {
 	padding-bottom: .25em;
 }
 
-img {
-	max-width: 26em;
-	margin: auto;
-}
-
-h1 {
-	max-width: 9em;
-	margin: auto;
-}
-
 a {
 	color: rgb(200, 110, 41);
 	text-decoration: none;
+}
+
+img {
+	max-height: 25em;
+	max-width: 25em;
 }
 
 h2 {
@@ -53,6 +53,45 @@ h3 {
 	color: rgb(200, 110, 41);
 }
 
+.caption {
+	color: rgb(78, 139, 19);
+	font-family: mr-eaves-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.caption_about {
+	color: rgb(78, 139, 19);
+	font-family: mr-eaves-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@media only screen and (min-width: 25em) {
+	.caption {
+		width: 75%;
+	}
+	.caption_about {
+		width: 85%;
+	}
+}
+
+@media only screen and (min-width: 36em) {
+	.caption {
+		width: 50%;
+		float: left;
+	}
+	img {
+		float: left;
+		padding-right: 1em;
+	}
+	.caption_about {
+		width:90%;
+	}
+	.burger {
+		float: right;
+	}
+}
+
 h4 {
 	font-family: chantal, sans-serif;
 	font-style: normal;
@@ -64,15 +103,7 @@ p {
 	font-family: mr-eaves-sans, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	margin-top: -.75em;
 	margin-left: .5em;
-}
-
-.caption {
-	color: rgb(200, 110, 41);
-	font-family: mr-eaves-sans, sans-serif;
-	font-weight: 400;
-	font-style: normal;
 }
 
 .price {
